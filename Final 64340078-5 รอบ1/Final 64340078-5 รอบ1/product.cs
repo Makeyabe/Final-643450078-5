@@ -12,8 +12,13 @@ namespace Final_64340078_5_รอบ1
         double price;
 
     }
-    public void Product(name, price)
-    {
-
-    }
+    //public product(string name, double price)
+    //{
+    //    //product.name = ;
+    //    //product.price = ;
+    //}
+    //public double getPrice() 
+    //{
+    //    return 0;
+    //}
 }

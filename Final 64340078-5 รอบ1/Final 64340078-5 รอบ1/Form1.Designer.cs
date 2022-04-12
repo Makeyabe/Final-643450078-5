@@ -43,7 +43,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.totalBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
@@ -74,13 +74,13 @@
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.openToolStripMenuItem.Text = "Open";
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.saveToolStripMenuItem.Text = "Save";
             // 
             // dataGridView1
@@ -116,12 +116,13 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(473, 280);
+            this.button1.Location = new System.Drawing.Point(589, 230);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 6;
-            this.button1.Text = "button1";
+            this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -178,12 +179,12 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // textBox4
+            // totalBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(143, 399);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(125, 27);
-            this.textBox4.TabIndex = 13;
+            this.totalBox.Location = new System.Drawing.Point(143, 399);
+            this.totalBox.Name = "totalBox";
+            this.totalBox.Size = new System.Drawing.Size(125, 27);
+            this.totalBox.TabIndex = 13;
             // 
             // label4
             // 
@@ -214,7 +215,7 @@
             this.ClientSize = new System.Drawing.Size(800, 465);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.totalBox);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label3);
@@ -254,7 +255,7 @@
         private Label label3;
         private Button button3;
         private Button button4;
-        private TextBox textBox4;
+        private TextBox totalBox;
         private Label label4;
         private Button button5;
         private OpenFileDialog openFileDialog1;

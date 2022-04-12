@@ -1,0 +1,17 @@
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\obj\Debug\net6.0-windows\Final 64340078-5 รอบ1.csproj.AssemblyReference.cache
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\obj\Debug\net6.0-windows\Final_64340078_5_รอบ1.Form1.resources
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\obj\Debug\net6.0-windows\Final 64340078-5 รอบ1.csproj.GenerateResource.cache
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\obj\Debug\net6.0-windows\Final 64340078-5 รอบ1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\obj\Debug\net6.0-windows\Final 64340078-5 รอบ1.AssemblyInfoInputs.cache
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\obj\Debug\net6.0-windows\Final 64340078-5 รอบ1.AssemblyInfo.cs
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\obj\Debug\net6.0-windows\Final 64340078-5 รอบ1.csproj.CoreCompileInputs.cache
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\bin\Debug\net6.0-windows\Final 64340078-5 รอบ1.exe
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\bin\Debug\net6.0-windows\Final 64340078-5 รอบ1.deps.json
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\bin\Debug\net6.0-windows\Final 64340078-5 รอบ1.runtimeconfig.json
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\bin\Debug\net6.0-windows\Final 64340078-5 รอบ1.dll
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\bin\Debug\net6.0-windows\ref\Final 64340078-5 รอบ1.dll
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\bin\Debug\net6.0-windows\Final 64340078-5 รอบ1.pdb
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\obj\Debug\net6.0-windows\Final 64340078-5 รอบ1.dll
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\obj\Debug\net6.0-windows\ref\Final 64340078-5 รอบ1.dll
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\obj\Debug\net6.0-windows\Final 64340078-5 รอบ1.pdb
+C:\Users\MAKE\Documents\GitHub\Final-643450078-5\Final 64340078-5 รอบ1\Final 64340078-5 รอบ1\obj\Debug\net6.0-windows\Final 64340078-5 รอบ1.genruntimeconfig.cache

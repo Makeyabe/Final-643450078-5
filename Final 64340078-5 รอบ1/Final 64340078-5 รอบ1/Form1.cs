@@ -13,21 +13,50 @@ namespace Final_64340078_5_รอบ1
             string file = openFileDialog1.FileName;
             loadProductFromFile(file);
         }
-        public void loadProductFromFile(string filepath)
+        public void loadProductFromFile(string Npath)
         {
-            string[] lines = System.IO.File.ReadAllLines(filepath);
+            string[] lines = System.IO.File.ReadAllLines(Npath);
             if (lines.Length > 0)
             {
-                string firstLine = lines[0];
-                string[] headerLadels = firstLine.Split(',');
+                string MLine = lines[0];
+                string[] Ladels = MLine.Split(',');
                 DataGridViewTextBoxColumn Name = new DataGridViewTextBoxColumn();
-                Name.HeaderText = headerLadels[0];
+                Name.HeaderText = Ladels[0];
                 DataGridViewTextBoxColumn Price = new DataGridViewTextBoxColumn();
-                Price.HeaderText = headerLadels[1];
-                DataGridViewTextBoxColumn Select = new DataGridViewTextBoxColumn();
-                Select.HeaderText = headerLadels[2];
+                Price.HeaderText = Ladels[1];
+                DataGridViewCheckBoxColumn Select = new DataGridViewCheckBoxColumn();
+                Select.HeaderText = Ladels[2];
                 DataGridViewTextBoxColumn Amount = new DataGridViewTextBoxColumn();
-                Amount.HeaderText = headerLadels[3];
+                Amount.HeaderText = "Amount";
+                dataGridView1.Columns.Add(Name);
+                dataGridView1.Columns.Add(Price);
+                dataGridView1.Columns.Add(Select);
+                dataGridView1.Columns.Add(Amount);
+
+                for (int i = 1; i < lines.Length; i++)
+                {
+                    string[] data = lines[i].Split(',');
+                    dataGridView1.Rows.Add(data[0], data[1], data[2]);
+                }
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double totalAll = 0;
+            for(int i = 0; i < dataGridView1.Rows.Count; i++)
+            {
+                bool rowAlreadyExist = false;
+                bool checkedCell = Convert.ToBoolean(dataGridView1.Rows[i].Cells[2].Value);
+                if(checkedCell == true)
+                {
+                    DataGridViewRow row = dataGridView1.Rows[i];
+                    double totals = Convert.ToDouble(row.Cells[1].Value);
+                    double amount = Convert.ToDouble(row.Cells[3].Value);
+                    totals *= amount;
+                    totalAll += totals;
+                    totalBox.Text = totalAll.ToString();
+                }
             }
         }
     }
