@@ -59,5 +59,22 @@ namespace Final_64340078_5_รอบ1
                 }
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double money = Convert.ToDouble(moneyBox.Text);
+            double total = Convert.ToDouble(totalBox.Text);
+            double change = money - total;
+            if (change > 0)
+            {
+                textBox2.Text = "Sucessful";
+                changeStatus.Text = "Change = " + change.ToString();
+            }
+            else
+            {
+                textBox2.Text = "Sucessful";
+                changeStatus.Text = "Lack of change = " + change.ToString();
+            }
+        }
     }
 }
